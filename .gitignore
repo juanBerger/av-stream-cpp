@@ -33,4 +33,6 @@
 
 .DS_Store
 .vscode
+stream-test
+*.dSYM
 build

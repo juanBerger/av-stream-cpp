@@ -8,7 +8,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 find_library(COCOA_LIBRARY Cocoa)
 
 include_directories(include)
-add_library(AV_STREAM_CPP SHARED
+add_library(AV_STREAM_CPP SHARED STATIC
             src/AVFoundationWrapper.mm
             src/main.cpp
         )
+
+
+        

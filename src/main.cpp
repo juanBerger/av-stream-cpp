@@ -1,4 +1,3 @@
-// main.cpp
 #include "AvFoundationWrapper.h"
 
 int main() {
