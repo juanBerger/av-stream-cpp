@@ -1,6 +1,10 @@
+#include "../include/AVFoundationWrapper.h"
 #include <iostream>
+#include <string>
 
 int main(){
-    std::cout << "Test run" << std::endl;
+
+    AVFoundationWrapper avfWrapper;
+    std::cout << &avfWrapper << std::endl;
     return 0;
 }

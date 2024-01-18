@@ -1,8 +1,11 @@
-#import <AVFoundation/AVFoundation.h>
+#include <string>
 #include <iostream>
+
+#import <AVFoundation/AVFoundation.h>
 
 class AVFoundationWrapper {
 public:
+    
     void readFrames(const std::string &filePath) {
         
         // Objective-C code to use AVFoundation
@@ -14,6 +17,7 @@ public:
         // For each frame, do something like:
         // processFrame(frameData); // A hypothetical C++ function
     }
+
 
     // Add methods for streaming to Fastly
 };

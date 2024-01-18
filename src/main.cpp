@@ -1,4 +1,4 @@
-#include "AvFoundationWrapper.h"
+#include "../include/AVFoundationWrapper.h"
 
 int main() {
     AVFoundationWrapper avWrapper;
