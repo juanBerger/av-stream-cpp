@@ -1,8 +1,9 @@
-#include "../include/AVFoundationWrapper.h"
+#include <string>
+#include <iostream>
+#include "FileReader.h"
 
 int main() {
-    AVFoundationWrapper avWrapper;
-    //avWrapper.readFrames("path/to/video.mp4");
-    // Additional logic to handle streaming
+    FileReader freader;
+    std::cout << freader.sayHello() << std::endl;
     return 0;
 }
